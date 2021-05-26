@@ -1,0 +1,70 @@
+
+:root{
+    --header-font: 'Pacifico', cursive;
+    --body-font: 'KoHo', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}
+
+/*Landing*/
+.landing{
+    background: url('./assets/landing-image.jpg') center no-repeat;
+    height: 70vh;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 10px solid gray;
+}
+
+h1{
+    font-family: var(--header-font);
+    font-size: 6rem;
+    padding: 14% 0 0 0;
+    color: rgb(247, 176, 188);
+    text-shadow: 2px 2px 6px black;
+}
+
+p{
+    color: rgb(247, 176, 188);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+    background-color: black;
+    width: 35%;
+    border-radius: 7px;
+    margin: 2rem auto;  
+}
+
+/*Search*/
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 3px rgb(245, 174, 185);
+}
+
+.byCity, .byState, .byDistance{
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(247, 176, 188);
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*Results*/
+.results{
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
